@@ -1,8 +1,7 @@
 FROM debian:buster-slim
 
 RUN apt-get update && \
-    apt-get -y install --no-install-recommends curl gnupg software-properties-common && \
-    rm -rf /var/lib/apt/lists/*
+    apt-get -y install --no-install-recommends curl gnupg software-properties-common
 
 RUN curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add -
 
