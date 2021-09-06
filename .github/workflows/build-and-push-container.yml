@@ -33,4 +33,3 @@ jobs:
           push: true
           tags: |
             ghcr.io/kylegrantlucas/vault-agent:latest
-            # ghcr.io/kylegrantlucas/vault-agent:${{ github.event.release.tag_name }}
