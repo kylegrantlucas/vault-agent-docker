@@ -8,7 +8,7 @@ A small container pre-installed and setup to run the vault agent as a daemon. Us
 version: '2'
 services:
   vault-agent:
-    image: kylegrantlucas/vault-agent
+    image: ghcr.io/kylegrantlucas/vault-agent:latest
     container_name: vault-agent
     restart: unless-stopped
     volumes:
